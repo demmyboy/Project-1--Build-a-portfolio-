@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <div>
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Resume</a></li>
+                                    <li><a href="#">Arcade Game</a></li>
+                                    <li><a href="#">Web Optimization</a></li>
+                                    <li><a href="#">Neighbourhood Map</a></li>
+                                    <li><a href="#">Feed reader Testing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="title-logo" src="images/logo.jpg" alt="A logo">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="text-center text-thin title-super">Abdulai Demmy</h1>
+                    <h4 class="text-center">Front-end Developer</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr class="dark-line">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Featured work</h2>
+                    <h2 class="text-center">Click the picture to read more</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/lion1.jpg" alt="lion1" data-toggle="modal" data-target="#project1">
+                    <h3 class="text-uppercase">Cute Lion</h3>
+                    <p><a class="btn btn-info btn-lg" href="http://www.manutd.com">Manchester United</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/lion2.jpg" alt="lion2" data-toggle="modal" data-target="#project2">
+                    <h3 class="text-uppercase">Funny Lion</h3>
+                    <p><a class="btn btn-info btn-lg" href="http://www.google.com">Google</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/lion3.jpg" alt="lion3" data-toggle="modal" data-target="#project3">
+                    <h3 class="text-uppercase">Fine Lion</h3>
+                    <p><a class="btn btn-info btn-lg" href="http://www.yahoo.com">Yahoo</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="images/lion_footer.png" alt="Tranparent_lion">
+                </div>
+            </div>
+            <div class="row footer">
+                <div class="col-md-12">
+                    <footer>
+                        <p>&copy; 2015 All rights reserved. Powered and Designed by Demmy</p>
+                    </footer>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel1">Cute Lion</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="images/lion1.jpg" alt="Lion1">
+                            <article>
+                                <h2> CUte Lion</h2>
+                                <p>The lion is one of the five big cats in the genus Panthera and a member of the family Felidae. The commonly used term African lion collectively denotes the several subspecies found in Africa.</p>
+                            </article>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel2">Funny Lion</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="images/lion2.jpg" alt="Lion2">
+                            <article>
+                                <h2>Funny Lion</h2>
+                                <p>The lion is one of the five big cats in the genus Panthera and a member of the family Felidae. The commonly used term African lion collectively denotes the several subspecies found in Africa.</p>
+                            </article>
+                        </div>
+                        <div class="modal-footer"> 
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel3">Fine Lion</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="images/lion3.jpg" alt="Lion3">
+                            <article>
+                                <h2>Fine Lion</h2>
+                                <p>The lion is one of the five big cats in the genus Panthera and a member of the family Felidae. The commonly used term African lion collectively denotes the several subspecies found in Africa
+                                </p>
+                            </article>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
